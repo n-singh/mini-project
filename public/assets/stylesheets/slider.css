@@ -1,0 +1,74 @@
+.slider {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  left: 0px;
+  top: 175px;
+  height: 538px;
+  background-color: #83CE8B; }
+
+.slider-content {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.shoe-image {
+  max-width: 960px; }
+
+.arrow-left {
+  float: left;
+  margin-top: 10px;
+  cursor: pointer; }
+
+.arrow-right {
+  float: right;
+  margin-top: 10px;
+  cursor: pointer; }
+
+.slider h1 {
+  float: left;
+  margin-top: -370px;
+  line-height: 100px;
+  margin-left: 32px;
+  color: #000000;
+  font-size: 110px;
+  font-weight: bold; }
+
+.slider h2 {
+  float: left;
+  margin-top: -190px;
+  margin-left: 275px;
+  color: #ffffff;
+  font-size: 68px;
+  font-weight: normal; }
+
+.slider button {
+  float: left;
+  margin-top: -80px;
+  margin-left: 80px;
+  background-color: #fd200f;
+  border: none;
+  color: #ffffff;
+  width: 215px;
+  height: 36px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 20px;
+  -webkit-transition-duration: 0.2s;
+  /* Safari */
+  transition-duration: 0.2s;
+  cursor: pointer;
+  position: absolute;
+  z-index: 2; }
+
+.slider button:hover {
+  background-color: #f2f2f2;
+  color: #000000; }
+
+.slider .border-line {
+  margin-left: 9px;
+  margin-right: 19px;
+  border-left: 1px solid #ab090e;
+  height: 36px; }

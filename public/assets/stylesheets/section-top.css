@@ -1,0 +1,83 @@
+.section-top {
+  margin-top: 548px;
+  max-width: 960px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+
+.section-top .first-column {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  -webkit-flex-direction: column;
+  flex-direction: column; }
+
+.section-top .second-column {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  -webkit-flex-direction: column;
+  flex-direction: column; }
+
+.section-top .third-column {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  flex-direction: column; }
+
+.section-top [class$="column"] {
+  background-color: #ffffff;
+  width: 311px;
+  height: 338px;
+  border: 1px solid #dedede;
+  object-fit: contain; }
+
+.section-top h2 {
+  margin-top: 0px;
+  color: #000000;
+  font-size: 40px;
+  font-weight: normal; }
+
+.section-top h3 {
+  margin-top: 0px;
+  color: #f57174;
+  font-size: 25px;
+  font-weight: normal; }
+
+.section-top h4 {
+  margin-top: 0px;
+  color: #000000;
+  font-size: 15px;
+  font-weight: normal; }
+
+.section-top .woman {
+  background-image: url("../images/woman.png");
+  background-repeat: no-repeat;
+  width: 173px;
+  height: 173px; }
+
+.section-top .man {
+  background-image: url("../images/man.png");
+  background-repeat: no-repeat;
+  width: 173px;
+  height: 173px; }
+
+.section-top .kid {
+  background-image: url("../images/kid.png");
+  background-repeat: no-repeat;
+  width: 173px;
+  height: 173px; }
+
+.section-top .list {
+  margin-top: 8px;
+  background-image: url("../images/list.png");
+  background-repeat: no-repeat;
+  width: 17px;
+  height: 12px; }

@@ -1,0 +1,116 @@
+/* HEADER */
+header {
+  max-width: 960px;
+  min-height: 135px;
+  background-color: #f2f2f2; }
+
+.logo {
+  float: left;
+  margin-top: 54px;
+  background-image: url("../images/logo.png");
+  width: 373px;
+  height: 46px; }
+
+.contact {
+  float: right;
+  margin-top: 20px;
+  margin-right: 2px;
+  width: 288px;
+  color: #000000;
+  font-size: 14px; }
+
+.phone-icon {
+  float: left;
+  width: 16px;
+  height: 16px;
+  background-image: url("../images/phone.png"); }
+
+.mail-icon {
+  float: left;
+  margin-top: 1px;
+  margin-left: 40px;
+  width: 16px;
+  height: 16px;
+  background-image: url("../images/mail.png"); }
+
+.phone-nr {
+  float: left;
+  margin-left: 9px; }
+
+.mail {
+  float: left;
+  margin-left: 9px; }
+
+.display-none {
+  display: none; }
+
+.login-box {
+  float: right;
+  margin-top: 19px;
+  background-color: #ffffff;
+  width: 332px;
+  height: 55px;
+  border-radius: 6px; }
+
+.shop-cart {
+  float: left;
+  background-image: url("../images/shop-cart.png");
+  width: 16px;
+  height: 16px;
+  margin-top: 21px;
+  margin-left: 25px; }
+
+.border-login {
+  float: left;
+  margin-top: 9px;
+  margin-left: 37px;
+  border-right: 1px solid #e0e0e0;
+  height: 38px; }
+
+.login-box a {
+  float: left;
+  margin-top: 16px;
+  margin-left: 11px;
+  text-decoration: underline;
+  color: #000000;
+  font-size: 18px; }
+
+.login-box a:hover {
+  color: #ee3123; }
+
+.button-regi {
+  float: left;
+  margin-top: 7px;
+  margin-left: 22px;
+  background-color: #ee3123;
+  border: none;
+  width: 167px;
+  height: 41px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 20px; }
+
+.button-regi:hover {
+  background-color: #f2f2f2;
+  color: #000000; }
+
+@media only screen and (max-width: 720px) {
+  .contact {
+    display: none; }
+  .login-box {
+    display: none; } }
+
+@media only screen and (max-width: 568px) {
+  .logo-box {
+    max-width: 960px; }
+  .logo {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../images/logo-mobile.png");
+    width: 300px;
+    height: 37px; } }

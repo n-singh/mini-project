@@ -1,0 +1,84 @@
+footer {
+  clear: both;
+  position: absolute;
+  width: 100%;
+  min-height: 144px;
+  background-color: #f2262c; }
+
+.footer-content {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 42px;
+  max-width: 960px;
+  min-height: 100px; }
+
+.logo-footer {
+  float: left;
+  margin-top: 5px;
+  background-image: url("../images/logo-footer.png");
+  width: 181px;
+  height: 22px; }
+
+.footer-links {
+  float: left;
+  margin-top: 7px;
+  margin-left: 35px; }
+
+.footer-icons {
+  float: right; }
+
+.pinterest {
+  float: left;
+  margin-left: 4px;
+  background-image: url("../images/pinterest.png");
+  width: 30px;
+  height: 30px; }
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden; }
+
+footer li {
+  float: left; }
+
+footer li a {
+  display: block;
+  text-align: center;
+  padding: 0px 15px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 15px; }
+
+footer li a:hover {
+  color: #000000;
+  font-size: 15px; }
+
+footer .border-right {
+  border-right: 1px solid #ffffff; }
+
+@media only screen and (max-width: 940px) {
+  .footer-content {
+    margin-top: 12px;
+    min-height: 110px; }
+  .logo-footer {
+    float: none;
+    margin-left: auto;
+    margin-right: auto; }
+  .footer-links {
+    float: none;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 168px; }
+  .footer-icons {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 110px;
+    height: 30px; }
+  footer .border-right {
+    border-right: none; }
+  footer li {
+    float: none; } }
