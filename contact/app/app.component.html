@@ -1,0 +1,10 @@
+<h1>{{title}}</h1>
+    <ul>
+        <li *ngFor="let recipe of recipes">
+        <h2>{{recipe.name | uppercase}}</h2>
+        <p>{{recipe.description}}</p>
+        <p> {{recipe.ingredients}}</p>
+        <p *ngIf="recipe.time < 40">Quick recipe!</p>
+        <p> Total time needed: {{totalTime(recipe)}}</p>
+        </li>
+    </ul>

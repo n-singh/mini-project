@@ -1,0 +1,6 @@
+<div *ngIf="recipe">
+    <h2>{{recipe.name}}</h2>
+    <p>{{recipe.description}}</p>
+    <p>{{recipe.ingredients}}</p>
+    <button (click)="goBack()">Back to recipe list</button>
+</div>

@@ -1,0 +1,6 @@
+ <ul>
+        <li *ngFor="let recipe of recipes" [class.featured]="recipe.featured">
+        <h2>{{recipe.name | uppercase}}</h2>
+            <a [routerLink]="['/detail', recipe.id]">View recipe details</a>
+        </li>
+ </ul>
